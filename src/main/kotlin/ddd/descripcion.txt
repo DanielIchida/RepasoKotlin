@@ -1,0 +1,12 @@
+#DDD
+ -> Model Driving Design
+    -> Services -> Business logic
+    -> Entities -> Models with enumeration
+    -> Values Objects -> Models without enumeration
+    -> Aggregates -> sets of entities and values for modifications. is only referred to that and not to the entities.
+    -> Repositories -> abstract persistence
+    -> Domain Events -> Uses Cases
+    -> Factories -> Responsibility create objects
+ -> Ubiquitous Language -> Business Language
+ -> Bounded Context -> delimit in sub-domains and contexts establishing relationships with these
+ -> ContextMap -> Context mapping is a tool that allows you to identify the relationship between bounded contexts and the relationship between the teams that are responsible for them.

@@ -1,0 +1,4 @@
+CQRS
+this is a pattern of microservices that independently scale read and write workloads of an application & have well optimized data schema.
+* Command -> Modifies the data and not return data
+* Query -> does not modify but return data
